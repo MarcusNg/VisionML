@@ -28,7 +28,7 @@
 		5FFBDEA11F4796B000F6AAB1 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
 		5FFBDEA31F4798C600F6AAB1 /* RoundedShadowButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButtonView.swift; sourceTree = "<group>"; };
 		5FFBDEA51F4798F700F6AAB1 /* RoundedShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowImageView.swift; sourceTree = "<group>"; };
-		5FFBDEA71F47A88100F6AAB1 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		5FFBDEA81F47A95900F6AAB1 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,7 @@
 		5FFBDEA01F4792DC00F6AAB1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5FFBDEA71F47A88100F6AAB1 /* SqueezeNet.mlmodel */,
+				5FFBDEA81F47A95900F6AAB1 /* SqueezeNet.mlmodel */,
 			);
 			path = Resources;
 			sourceTree = "<group>";

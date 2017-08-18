@@ -95,6 +95,13 @@ extension CameraVC: AVCapturePhotoCaptureDelegate {
             debugPrint(error)
         } else {
             photo.fileDataRepresentation()
+            
+            do {
+                let model = try VNCoreMLModel(for: SqueezeNet().model)
+            } catch {
+                // Handle errors
+            }
+            
             let image = UIImage(data: photoData!)
             self.captureImgView.image = image
         }
